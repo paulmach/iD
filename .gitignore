@@ -6,3 +6,7 @@ dist/iD.css
 dist/presets.js
 dist/imagery.js
 transifex.auth
+node_modules
+serve.go
+publish.sh
+
