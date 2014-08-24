@@ -379,7 +379,7 @@ en:
     cancel: "Cancel"
   splash:
     welcome: Welcome to the iD editor WITH SLIDE
-    text: This fork of iD includes the <a href="http://labs.strava.com/slide" target="_blank">Slide add-on</a>, a tool which slides ways<br />to high density corridors in <a href="http://strava.com" target="_blank">Strava's</a> GPS data.<br /><br /><strong>How to use</strong> &nbsp; &nbsp; <i>Select a way</i> or <i>select 2+ vertexes on the same way</i>, then run the Slide Operation.
+    text: This fork of iD includes the <a href="http://github.com/paulmach/slide" target="_blank">Slide add-on</a>, a tool which slides ways to TIGER lines.<br /><br /><strong>How to use</strong> &nbsp; &nbsp; <i>Select a way</i> or <i>select 2+ vertexes on the same way</i>, then run the Slide Operation.
     walkthrough: "Learn more about Slide"
     start: "Edit Now"
   source_switch:

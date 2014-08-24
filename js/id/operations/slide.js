@@ -1,5 +1,5 @@
 iD.operations.Slide = function(selectedIds, context) {
-    var slideOperationURI = window.location.hostname == 'localhost' ? "http://localhost:8200/slide" : "http://gometry.strava.com/slide";
+    var slideOperationURI = window.location.hostname == 'localhost' ? "http://localhost:8080/slide" : "http://slide.paulmach.com/slide";
 
     function sharedWayId(nodeIds) {
         var graph = context.graph(),
@@ -29,24 +29,6 @@ iD.operations.Slide = function(selectedIds, context) {
         }
 
         return wayIds[0];
-    }
-
-    function heatType() {
-        var backgrounds = context.background().overlayLayerSources(),
-            hasBoth = _.any(backgrounds, function(b) { return (b.sourcetag === "Strava Global Heat"); }),
-            hasCycling = _.any(backgrounds, function(b) { return (b.sourcetag === "Strava Cycling Heat"); }),
-            hasRunning = _.any(backgrounds, function(b) { return (b.sourcetag === "Strava Running Heat"); }),
-            heat = "both";
-
-        if (hasBoth || (hasCycling && hasRunning)) {
-            heat = "both";
-        } else if (hasCycling) {
-            heat = "cycling";
-        } else {
-            heat = "running";
-        }
-
-        return heat;
     }
 
     var operation = function() {
@@ -86,7 +68,7 @@ iD.operations.Slide = function(selectedIds, context) {
         context.container().call(loading);
 
         // run the async request
-        d3.json(slideOperationURI + '?data_tiles=' + heatType() + '&path=' + encodeURIComponent(polylineEncode(path)), 
+        d3.json(slideOperationURI + '?data_tiles=TIGER&path=' + encodeURIComponent(polylineEncode(path)), 
             function(error, json) {
                 loading.close();
                 if (error) return console.warn(error);
