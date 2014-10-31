@@ -10517,7 +10517,6 @@ iD.data.imagery = [
         ],
         "terms_url": "http://www.mapbox.com/about/maps/",
         "terms_text": "Terms & Feedback",
-        "default": true,
         "overlay": true
     },
     {
@@ -17007,6 +17006,7 @@ iD.data.imagery = [
             0,
             22
         ],
+        "default": "yes",
         "polygon": [
             [
                 [
