@@ -202,7 +202,6 @@
         "title": "Lagre",
         "help": "Lagre endringene i OpenStreetMap, slik at de blir synlige for andre brukere.",
         "no_changes": "Ingen endringer å lagre.",
-        "error": "Det oppstod en feil ved forsøk på å lagre",
         "uploading": "Laster opp endringer til OpenStreetMap.",
         "unsaved_changes": "Du har ulagrede endringer"
     },
@@ -587,9 +586,6 @@
             "towertype": {
                 "label": "Tårntype"
             },
-            "tree_type": {
-                "label": "Type"
-            },
             "tunnel": {
                 "label": "Tunnel"
             },
@@ -611,9 +607,6 @@
             },
             "wikipedia": {
                 "label": "Wikipedia"
-            },
-            "wood": {
-                "label": "Type"
             }
         },
         "presets": {
@@ -908,14 +901,8 @@
             "landuse/cemetery": {
                 "name": "Kirkegård"
             },
-            "landuse/commercial": {
-                "name": "Kommersielt"
-            },
             "landuse/construction": {
                 "name": "Konstruksjon"
-            },
-            "landuse/farm": {
-                "name": "Gård"
             },
             "landuse/farmyard": {
                 "name": "Gårdsplass"
@@ -926,9 +913,6 @@
             "landuse/grass": {
                 "name": "Gress"
             },
-            "landuse/industrial": {
-                "name": "Industrielt"
-            },
             "landuse/meadow": {
                 "name": "Blomstereng"
             },
@@ -937,12 +921,6 @@
             },
             "landuse/quarry": {
                 "name": "Steinbrudd"
-            },
-            "landuse/residential": {
-                "name": "Boligområde"
-            },
-            "landuse/retail": {
-                "name": "Handel"
             },
             "landuse/vineyard": {
                 "name": "Vingård"

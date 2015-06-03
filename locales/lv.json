@@ -211,7 +211,6 @@
         "title": "Saglabāt",
         "help": "Saglabā izmaiņas, padarot tās redzamas citiem.",
         "no_changes": "Nav izmaiņu, ko saglabāt.",
-        "error": "Kļūda. Nevarēja saglabāt izmaiņas",
         "uploading": "Augšupielādē izmaiņas",
         "unsaved_changes": "Jums ir nesaglabātas izmaiņas"
     },
@@ -508,9 +507,6 @@
             },
             "wikipedia": {
                 "label": "Vikipēdija"
-            },
-            "wood": {
-                "label": "Tips"
             }
         },
         "presets": {
@@ -736,14 +732,8 @@
             "landuse/cemetery": {
                 "name": "Kapsēta"
             },
-            "landuse/commercial": {
-                "name": "Komercplatība"
-            },
             "landuse/construction": {
                 "name": "Būvlaukums"
-            },
-            "landuse/farm": {
-                "name": "Zemnieku saimniecība"
             },
             "landuse/farmyard": {
                 "name": "Lauku sēta"
@@ -754,17 +744,11 @@
             "landuse/grass": {
                 "name": "Zāle"
             },
-            "landuse/industrial": {
-                "name": "Industriāls rajons"
-            },
             "landuse/meadow": {
                 "name": "Pļava"
             },
             "landuse/quarry": {
                 "name": "Karjers"
-            },
-            "landuse/residential": {
-                "name": "Dzīvojamā zona"
             },
             "landuse/vineyard": {
                 "name": "Vīnogu lauks"

@@ -286,6 +286,24 @@
         "fix_misalignment": "Perbaiki perataan",
         "reset": "ulang"
     },
+    "feature": {
+        "paths": {
+            "description": "Jalan Kecil"
+        },
+        "buildings": {
+            "description": "Bangunan"
+        },
+        "boundaries": {
+            "description": "Batas",
+            "tooltip": "Batas Administrasi"
+        },
+        "past_future": {
+            "description": "Masa Lalu/Akan Datang"
+        },
+        "others": {
+            "description": "Lainnya"
+        }
+    },
     "restore": {
         "heading": "Anda memiliki perubahan yang belum disimpan",
         "description": "Apakah anda ingin mengembalikan perubahan yang belum tersimpan dari sesi penyuntingan sebelumnya?",
@@ -296,7 +314,6 @@
         "title": "Simpan",
         "help": "Simpan perubahan ke OpenStreetMap, jadikan mereka terlihat oleh pengguna lain.",
         "no_changes": "Tak ada perubahan yang bisa disimpan.",
-        "error": "Sebuah kesalahan terjadi ketika penyimpanan.",
         "uploading": "Mengunggah perubahan ke OpenStreetMap.",
         "unsaved_changes": "Anda mememiliki perubahan yang belum tersimpan"
     },
@@ -356,8 +373,7 @@
         "view_on_mapillary": "Lihat gambar ini di Mapillary"
     },
     "help": {
-        "title": "Bantuan",
-        "help": "#Bantuan\n\nIni adalah editor untuk [OpenStreetMap] (http://www.openstreetmap.org/), \npeta dunia gratis dan bisa disunting. Anda dapat menggunakannya dengan menambahkan dan memperbarui\n data di area anda, membangun sebuah peta sumber-terbuka dan data-terbuka di seluruh dunia\n yang lebih baik untuk semua orang.\n\nPerubahan yang anda buat akan terlihat ke semua orang yang menggunakan \nOpenStreetMap. Untuk melakukan penyutingan, anda membutuhkan \n[free OpenStreetMap account] (https://www.openstreetmap.org/user/new).\n\n[iD editor](http://ideditor.com/) adalah proyek kolaborasi dengan [kode sumber tersedia di GitHub](https://github.com/openstreetmap/iD).\n"
+        "title": "Bantuan"
     },
     "intro": {
         "navigation": {
@@ -907,9 +923,6 @@
             "tracktype": {
                 "label": "Tipe Trek"
             },
-            "tree_type": {
-                "label": "Tipe"
-            },
             "trees": {
                 "label": "Pepohonan"
             },
@@ -937,9 +950,6 @@
             },
             "wikipedia": {
                 "label": "Wikipedia"
-            },
-            "wood": {
-                "label": "Tipe"
             }
         },
         "presets": {
@@ -1356,7 +1366,7 @@
                 "name": "Jalan Tinggal"
             },
             "highway/motorway": {
-                "name": "Jalur Motor"
+                "name": "Jalan Tol"
             },
             "highway/motorway_link": {
                 "name": "Jalan Tol"
@@ -1368,7 +1378,7 @@
                 "name": "Pejalan kaki"
             },
             "highway/primary": {
-                "name": "Jalan Utama"
+                "name": "Jalan Provinsi"
             },
             "highway/residential": {
                 "name": "Jalan Perumahan"
@@ -1377,7 +1387,7 @@
                 "name": "Tempat Peristirahatan"
             },
             "highway/secondary": {
-                "name": "Jalan Sekunder"
+                "name": "Jalan Kabupaten"
             },
             "highway/service": {
                 "name": "Jalan Layanan"
@@ -1392,7 +1402,7 @@
                 "name": "Titian"
             },
             "highway/tertiary": {
-                "name": "Jalan Tersier"
+                "name": "Jalan Kota"
             },
             "highway/track": {
                 "name": "Titian"
@@ -1402,7 +1412,7 @@
                 "terms": "<alihbahasa dengan sinonim atau istilah terkait untuk 'Lampu Merah', dipisahkan dengan koma>"
             },
             "highway/trunk": {
-                "name": "Jalan Utama"
+                "name": "Jalan Nasional"
             },
             "highway/turning_circle": {
                 "name": "Putaran"
@@ -1443,17 +1453,8 @@
             "landuse/churchyard": {
                 "name": "Halaman Gereja"
             },
-            "landuse/commercial": {
-                "name": "Komersil"
-            },
             "landuse/construction": {
                 "name": "Konstruksi"
-            },
-            "landuse/farm": {
-                "name": "Ternak"
-            },
-            "landuse/farmland": {
-                "name": "Lahan Pertanian"
             },
             "landuse/farmyard": {
                 "name": "Peternakan"
@@ -1464,23 +1465,14 @@
             "landuse/grass": {
                 "name": "Rumput"
             },
-            "landuse/industrial": {
-                "name": "Industri"
-            },
             "landuse/meadow": {
                 "name": "Padang Rumput"
-            },
-            "landuse/military": {
-                "name": "Militer"
             },
             "landuse/orchard": {
                 "name": "Kebun Buah"
             },
             "landuse/quarry": {
                 "name": "Pertambangan"
-            },
-            "landuse/residential": {
-                "name": "Pemukiman"
             },
             "landuse/vineyard": {
                 "name": "Kebun Anggur"

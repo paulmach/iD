@@ -196,7 +196,6 @@
         "title": "Stoor",
         "help": "Stoor veranderinge na OpenStreetMap, en maak dit sigbaar vir ander gebruikers.",
         "no_changes": "Geen verandering om te stoor.",
-        "error": "'n Fout het ingekruip toe jy probeer stoor het",
         "uploading": "Laai verandering op na OpenStreetMap.",
         "unsaved_changes": "Jy het ongestoorde veranderinge"
     },
@@ -628,9 +627,6 @@
             },
             "wikipedia": {
                 "label": "Wikipedia"
-            },
-            "wood": {
-                "label": "Tipe"
             }
         },
         "presets": {
@@ -969,17 +965,9 @@
                 "name": "Begrafplaas",
                 "terms": "begrafplaas, kerkhof, dodeakker, godsakker"
             },
-            "landuse/commercial": {
-                "name": "Kommersieel",
-                "terms": "kommersieel, handeldrywend, "
-            },
             "landuse/construction": {
                 "name": "Konstruksie",
                 "terms": "Konstruksie"
-            },
-            "landuse/farm": {
-                "name": "Plaas",
-                "terms": "Plaas"
             },
             "landuse/farmyard": {
                 "name": "Plaaswerf",
@@ -993,10 +981,6 @@
                 "name": "Gras",
                 "terms": "Gras, weiveld"
             },
-            "landuse/industrial": {
-                "name": "Industrieel",
-                "terms": "industrieel, nyweraar"
-            },
             "landuse/meadow": {
                 "name": "Weiveld",
                 "terms": "weiland, grasland, weiveld"
@@ -1008,14 +992,6 @@
             "landuse/quarry": {
                 "name": "Kwarrie",
                 "terms": "steengroef, klipbreekgat, groef"
-            },
-            "landuse/residential": {
-                "name": "Residensieel",
-                "terms": "residensieel, huisadres, woonhuis"
-            },
-            "landuse/retail": {
-                "name": "Kleinhandel",
-                "terms": "kleinhandel, kleinhandelsaak"
             },
             "landuse/vineyard": {
                 "name": "Druiweprieel",
